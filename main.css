@@ -1,3 +1,55 @@
 body {
   background-color: blanchedalmond;
 }
+
+.wrapper {
+  width: 400px;
+  padding: 0px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.row-1 {
+  background-color: #000000;
+  color: white;
+  padding: 1px 5px;
+  height: 75px;
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: auto;
+}
+
+button {
+  background-color: #d8d9db;
+  color: black;
+  width: 100px;
+  height: 75px;
+  font-size: 32px;
+}
+
+button.orange {
+  color:white;
+  background-color: #dd8d37;
+}
+
+.clear {
+  display: flex;
+  flex-grow: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+.zero {
+  display: flex;
+  flex-grow: 3;
+  justify-content: center;
+  align-items: center;
+}
