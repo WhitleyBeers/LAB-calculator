@@ -1,55 +1,50 @@
 body {
-  background-color: blanchedalmond;
+  background-color: lightseagreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.wrapper {
+div.container {
   width: 400px;
-  padding: 0px;
-  display: flex;
-  flex-flow: column wrap;
 }
 
-.row-1 {
-  background-color: #000000;
+div.display {
+  background-color: black;
   color: white;
-  padding: 1px 5px;
-  height: 75px;
-  font-size: 45px;
+  font-size: 30px;
+  width: 100%;
+  height: 60px;
   display: flex;
   align-items: center;
-  justify-content: end;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.row {
-  display: flex;
-  justify-content: space-between;
-  flex-basis: auto;
+  justify-content: flex-end;
 }
 
 button {
+  height: 70px;
+  font-size: 33px;
+  flex: 1 25%;
   background-color: #d8d9db;
-  color: black;
-  width: 100px;
-  height: 75px;
-  font-size: 32px;
+  border-width: 1px;
 }
 
-button.orange {
-  color:white;
-  background-color: #dd8d37;
-}
-
-.clear {
+.buttons {
   display: flex;
-  flex-grow: 2;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
 }
 
-.zero {
-  display: flex;
-  flex-grow: 3;
-  justify-content: center;
-  align-items: center;
+button.btn-clear {
+  flex: 1 50%;
+}
+
+button.zero {
+  flex: 1 75%;
+}
+
+button.btn-operator {
+  background-color: #df974c;
+  color: white;
+}
+
+button.btn-equals {
+  background-color: #df974c;
+  color: white;
 }
