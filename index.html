@@ -5,48 +5,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="main.css">
-  <title>Calculator</title>
+  <title>Lab Calculator</title>
 </head>
 <body>
-  <div class="wrapper">
-    
-      <div class="row-1">
-        <span>0</span>
-      </div>
-
-      <div class="row">
-        <button class="clear">C</button>
-        <button>&larr;</button>
-        <button class="orange">&divide;</button>
-      </div>
-
-      <div class="row">
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button class="orange">&times;</button>
-      </div>
-
-      <div class="row">
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button class="orange">&minus;</button>
-      </div>
-
-      <div class="row">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button class="orange">&plus;</button>
-      </div>
-
-      <div class="row">
-        <button class="zero">0</button>
-        <button class="orange">&equals;</button>
-      </div>
-    
-    </table>
+  <div class="container">
+    <div class="display">0</div>
+    <div class="buttons">
+      <button class="btn-clear">C</button>
+      <button class="btn-delete">&larr;</button>
+      <button class="btn-operator" data-num="/">&divide;</button>
+      <button class="btn-number" data-num="7">7</button>
+      <button class="btn-number" data-num="8">8</button>
+      <button class="btn-number" data-num="9">9</button>
+      <button class="btn-operator" data-num="*">&times;</button>
+      <button class="btn-number" data-num="4">4</button>
+      <button class="btn-number" data-num="5">5</button>
+      <button class="btn-number" data-num="6">6</button>
+      <button class="btn-operator" data-num="-">&minus;</button>
+      <button class="btn-number" data-num="1">1</button>
+      <button class="btn-number" data-num="2">2</button>
+      <button class="btn-number" data-num="3">3</button>
+      <button class="btn-operator" data-num="+">&plus;</button>
+      <button class="btn-number zero" data-num="0">0</button>
+      <button class="btn-equals" data-num="=">&equals;</button>
+    </div>
   </div>
 
   <script src="main.js"></script>
